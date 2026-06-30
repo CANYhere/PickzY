@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PickzY</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Pickz<span class="highlight">Y</span></h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section class="hero">
+  <h2>Find the Best Device Fast</h2>
+  <input id="search" placeholder="Search phones or laptops...">
+</section>
+
+<div class="tabs">
+  <button onclick="loadProducts('phones')">Phones</button>
+  <button onclick="loadProducts('laptops')">Laptops</button>
+</div>
+
+<div id="products" class="grid"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
